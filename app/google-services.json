@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "735053959241",
+    "firebase_url": "https://devfest-2018-trondheim.firebaseio.com",
+    "project_id": "devfest-2018-trondheim",
+    "storage_bucket": "devfest-2018-trondheim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735053959241:android:9583840b4aee5039",
+        "android_client_info": {
+          "package_name": "com.jqrgen.mvrxworkshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735053959241-dgf0pfsbbkjjv035mvecn1s0ttgipjhf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jqrgen.mvrxworkshop",
+            "certificate_hash": "838d47b3ec5d56dc88c3eed4501efc5caf343296"
+          }
+        },
+        {
+          "client_id": "735053959241-3h5gkrmheo7hp19p91rkgmccbkn3osbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgw9ltl79sI8-5poZf1qoj9_By0lAM3-A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735053959241-3h5gkrmheo7hp19p91rkgmccbkn3osbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
