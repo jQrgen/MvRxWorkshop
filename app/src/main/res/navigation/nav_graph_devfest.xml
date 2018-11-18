@@ -5,7 +5,7 @@
 
     <fragment
         android:id="@+id/liveButtonsFragment"
-        android:name="com.jqrgen.mvrxworkshop.views.LiveButtonsFragment"
+        android:name="com.jqrgen.mvrxworkshop.views.counter.CounterFragment"
         android:label="InfoFragment" />
 
 </navigation>

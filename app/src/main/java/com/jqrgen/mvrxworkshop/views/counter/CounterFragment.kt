@@ -1,4 +1,4 @@
-package com.jqrgen.mvrxworkshop.views
+package com.jqrgen.mvrxworkshop.views.counter
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,10 +9,9 @@ import android.widget.TextView
 import com.airbnb.mvrx.BaseMvRxFragment
 import com.airbnb.mvrx.withState
 import com.jqrgen.mvrxworkshop.R
-import com.airbnb.mvrx.activityViewModel
 
-class LiveButtonsFragment: BaseMvRxFragment() {
-    private val liveButtonsViewModel: LiveButtonsViewModel by activityViewModel ()
+class CounterFragment: BaseMvRxFragment() {
+    private val liveButtonsViewModel: CounterViewModel by activityViewModel ()
     private var incrementCounterButton: Button? = null
     private var counterText: TextView? = null
 
@@ -39,7 +38,7 @@ class LiveButtonsFragment: BaseMvRxFragment() {
     // TODO: DefFest: Breakpoint here and click the button
     override fun invalidate() {
         withState(liveButtonsViewModel){ liveButtonState ->
-            counterText?.text = liveButtonState.buttonCounter.toString()
+            counterText?.text = liveButtonState.count.toString()
         }
     }
 }

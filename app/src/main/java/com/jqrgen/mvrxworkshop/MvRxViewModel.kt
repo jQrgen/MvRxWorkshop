@@ -1,8 +1,8 @@
-package com.jqrgen.mvrxworkshop.coreMvRx
+package com.jqrgen.mvrxworkshop
 
 import com.airbnb.mvrx.BaseMvRxViewModel
 import com.airbnb.mvrx.BuildConfig
 import com.airbnb.mvrx.MvRxState
 
-// DevFest: Setup for the MvRxViewModel, not important for understanding the library at this point.
+// Config for the MvRxViewModel
 abstract class MvRxViewModel<S : MvRxState>(initialState: S) : BaseMvRxViewModel<S>(initialState, debugMode = BuildConfig.DEBUG)
