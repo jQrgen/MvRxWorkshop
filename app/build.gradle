@@ -12,7 +12,7 @@ android {
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
@@ -34,14 +34,22 @@ dependencies {
     // DevFest: MvRx/Maverics
     implementation 'com.airbnb.android:mvrx:0.5.0'
 
+    // DevFest: android architecture components constraintlayout
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-alpha2'
 
     // DevFest: Android Architecture component's version of 'com.android.support:appcompat-vx:xx.x.x'
     implementation 'androidx.appcompat:appcompat:1.0.2'
 
-//    implementation "android.arch.navigation:navigation-fragment-ktx:1.0.0-alpha07"
-//    implementation "android.arch.navigation:navigation-ui-ktx:1.0.0-alpha07"
+    implementation "android.arch.navigation:navigation-fragment-ktx:1.0.0-alpha07"
+    implementation "android.arch.navigation:navigation-ui-ktx:1.0.0-alpha07"
+
+    // DevFest: firebase
+    implementation 'com.google.firebase:firebase-core:16.0.5'
+    implementation 'com.google.firebase:firebase-database:16.0.5'
 
     // =============================================
     // DevFest: END: MvRx MvRx workshop Dependencies
     // =============================================
 }
+
+apply plugin: 'com.google.gms.google-services'
