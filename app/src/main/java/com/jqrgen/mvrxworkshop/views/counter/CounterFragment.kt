@@ -9,6 +9,7 @@ import android.widget.TextView
 import com.airbnb.mvrx.BaseMvRxFragment
 import com.airbnb.mvrx.withState
 import com.jqrgen.mvrxworkshop.R
+import com.airbnb.mvrx.activityViewModel
 
 class CounterFragment: BaseMvRxFragment() {
     private val liveButtonsViewModel: CounterViewModel by activityViewModel ()
