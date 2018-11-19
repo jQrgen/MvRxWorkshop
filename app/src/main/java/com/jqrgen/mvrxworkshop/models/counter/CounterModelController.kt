@@ -1,4 +1,4 @@
-package com.jqrgen.mvrxworkshop.models
+package com.jqrgen.mvrxworkshop.models.counter
 
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
@@ -10,7 +10,7 @@ object CounterModelController {
     private val counterReference = FirebaseDatabase.getInstance().getReference("counter")
 
     // Init singleton instance of chatSessionsModel here.
-    private val counterModel = ButtonCountModel()
+    private val counterModel = CounterModel()
 
     fun create(){}
 
@@ -38,7 +38,7 @@ object CounterModelController {
     fun delete() {}
 
     fun observable(): Observable<Int> {
-        // DevFest: Usese Obserable from ReactiveX framework which is inclusded in the MvRx framework.
+        // DevFest: Uses Obserable from ReactiveX framework which is included in the MvRx framework.
         return Observable.create<Int> { emitter ->
 
             // Emits current locally stored value to subscribers

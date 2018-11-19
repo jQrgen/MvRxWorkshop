@@ -1,7 +1,6 @@
 package com.jqrgen.mvrxworkshop
 
 import android.os.Bundle
-import androidx.navigation.Navigation.findNavController
 import com.airbnb.mvrx.BaseMvRxActivity
 
 class MainActivity : BaseMvRxActivity() { // DevFest: Replaces AppCompatActivity
