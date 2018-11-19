@@ -1,4 +1,4 @@
-package com.jqrgen.mvrxworkshop.views.colorPicker
+package com.jqrgen.mvrxworkshop.views.color
 
 import com.jqrgen.mvrxworkshop.MvRxViewModel
 

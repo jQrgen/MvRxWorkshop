@@ -9,6 +9,7 @@ import android.widget.TextView
 import com.airbnb.mvrx.BaseMvRxFragment
 import com.airbnb.mvrx.withState
 import com.jqrgen.mvrxworkshop.R
+import com.airbnb.mvrx.activityViewModel
 
 class CounterFragment: BaseMvRxFragment() {
     private val counterViewModel: CounterViewModel by activityViewModel ()
@@ -23,7 +24,7 @@ class CounterFragment: BaseMvRxFragment() {
         counterText = view.findViewById(R.id.counter_text_view)
         listenToIncrementCounterButton()
 
-        // TODO: DevFest create button + listener and use the following navController method to navigate to color view
+        // TODO: DevFest create button listener and use the following navController method to navigate to color view
         // findNavController().navigate(R.id.chatFragment)
         return view
     }

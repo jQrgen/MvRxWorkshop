@@ -1,4 +1,4 @@
-package com.jqrgen.mvrxworkshop.views.colorPicker
+package com.jqrgen.mvrxworkshop.views.color
 
 import android.graphics.Color
 import com.airbnb.mvrx.MvRxState

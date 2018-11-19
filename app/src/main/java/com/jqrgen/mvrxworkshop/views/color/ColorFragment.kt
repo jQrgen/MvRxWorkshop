@@ -1,4 +1,4 @@
-package com.jqrgen.mvrxworkshop.views.colorPicker
+package com.jqrgen.mvrxworkshop.views.color
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import com.airbnb.mvrx.BaseMvRxFragment
 import com.airbnb.mvrx.withState
 import com.jqrgen.mvrxworkshop.R
+import com.airbnb.mvrx.activityViewModel
 
 class ColorFragment: BaseMvRxFragment() {
     private val colorViewModel: ColorViewModel by activityViewModel ()

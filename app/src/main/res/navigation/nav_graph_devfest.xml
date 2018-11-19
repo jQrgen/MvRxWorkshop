@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:startDestination="@id/liveButtonsFragment">
+    app:startDestination="@id/counterFragment">
 
     <fragment
-        android:id="@+id/liveButtonsFragment"
+        android:id="@+id/counterFragment"
         android:name="com.jqrgen.mvrxworkshop.views.counter.CounterFragment"
-        android:label="InfoFragment" />
+        android:label="ColorFragment" />
+
+    <fragment
+        android:id="@+id/colorFragment"
+        android:name="com.jqrgen.mvrxworkshop.views.color.ColorFragment"
+        android:label="ColorFragment" />
+
+    <!-- TODO: Add textFragment -->
+
 
 </navigation>
